@@ -4,7 +4,7 @@
 
 ## Git Pages Link
 
-
+https://emilianobarro8.github.io/week3_news/.
 
 
 ## Contributors
