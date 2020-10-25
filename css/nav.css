@@ -61,26 +61,7 @@
   font-variant: small-caps;
   text-shadow: 1px 1px black;
 }
-
-.hambur input[type="checkbox"], .hambur .fa-bars, .hambur .fa-times {
-  position: absolute;  
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-  right: 0;
-  top: 0;
-  width: 8px;
-  height: 8px;  
-}
  
-.hambur .fa-bars, .hambur .fa-times {
-  font-size: 8px;
-  pointer-events: none;
-}
- 
-.hambur input[type="checkbox"] {
-  opacity: 0; 
-}
  
 .hambur {
   color: white;
@@ -92,15 +73,8 @@
 .hambur nav {
   display: none;
 }
- 
-.hambur input:checked ~ nav {
-  display: block;
-}
- 
-.hambur input:checked ~ .fa-bars {
-  display: none;
-}
- 
-.hambur input:not(:checked) ~ .fa-times {
-  display: none;
+
+.hambur img{
+  width: 10px;
+  height: 16px;
 }

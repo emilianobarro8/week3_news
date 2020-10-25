@@ -7,9 +7,7 @@
   .cont-2{
     display: flex;
     flex-wrap: wrap;
-  }
-  
- 
+  }  
 
  } 
 
@@ -75,12 +73,6 @@
 .sid3{
   height: 33%;
 }
-
-
-
-
-
-
 
 .cont-2 div{
   border: 1px red solid;
