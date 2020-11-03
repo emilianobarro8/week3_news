@@ -249,6 +249,14 @@ window.onload= function (){
         document.getElementById("idCard_error").innerHTML = null;             
     })
 
+    getinputname.addEventListener('keypress',function(){               
+        document.getElementById("welcome").innerHTML = "WELCOME " + document.getElementById("name").value;
+    })
+
+    getinputname.addEventListener('change',function(){               
+        document.getElementById("welcome").innerHTML = "WELCOME " + document.getElementById("name").value;
+     })
+
     getbuttonsend.onclick = function() {
         var v_error=null;
         var v_msj=null;
