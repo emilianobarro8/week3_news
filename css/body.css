@@ -9,8 +9,43 @@
     flex-wrap: wrap;
   }  
 
+  .cont-i1{
+    display: flex; 
+    flex: 50%;    
+  }
+
+  .boxi1{
+    justify-content: center; 
+    flex: 50%;
+    border: transparent;
+  }
+  
  } 
 
+
+input{
+  border: transparent;  
+} 
+
+p{
+  font-size: 8px;
+  color: red;
+  font-weight: bold;
+}
+
+.boton_enviar {
+  height: 40px;
+  position: relative;
+}
+
+.boton_centrado {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
 
 .cont-1 div{
   border: 1px red solid;
@@ -18,8 +53,7 @@
 
 .box1{
   flex:2;
-  justify-content: center;
-  
+  justify-content: center;  
 }
 
 .box1 h3{
